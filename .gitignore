@@ -1,0 +1,31 @@
+# Environment / secrets
+.env
+*.env
+venv/
+env/
+hiringAgent_env/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Generated output (don't ship test run artifacts in the repo)
+results.json
+results.csv
+results_*.json
+results_*.csv
+
+# IMPORTANT: never commit real test images that aren't yours to redistribute
+# if the sample images were provided privately by Smriti, keep them local only
+# and remove this line if you DO want to include your own test images.
